@@ -1,0 +1,48 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7; }
+
+.card {
+  background: #ff0000e8; }
+
+#HomeID {
+  background: url("../img/bb.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #HomeID .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+  #HomeID .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px; }
+  #HomeID .card-body {
+    opacity: 0.8; }
+  #HomeID .home-inner {
+    padding-top: 230px;
+    padding-bottom: 100px; }
+
+#CreateID2 .fa {
+  font-size: 30px;
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px; }
+
+#ShareID2 .fa {
+  font-size: 30px;
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  border-radius: 5px; }
+
+@media (max-width: 768px) {
+  #HomeID h1 {
+    font-size: 36px; } }
